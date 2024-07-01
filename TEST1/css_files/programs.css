@@ -1,0 +1,25 @@
+tr,td,th{
+    border: solid;
+    margin: 10px;
+    padding: 10px;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+    width: auto;
+}
+.prog{
+    align-items: center;
+    text-align: justify;
+    padding: 2%;
+
+
+}
+h3{
+    text-align: center;
+    color:  rgb(9, 77, 9);
+}
+h3:hover {
+    color: rgb(178, 2, 2);
+}
+

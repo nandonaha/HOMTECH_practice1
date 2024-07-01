@@ -1,0 +1,104 @@
+
+
+
+p {
+    text-align: justify;
+
+}
+
+
+img {
+    float: left;
+    margin-right: 1%;
+}
+
+
+
+.btn {
+    text-align: center;
+    padding: 1%;
+    border: solid;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(178, 2, 2);
+    color: white;
+    font-size: large;
+    width: 30%;
+}
+
+.btn:hover {
+    text-align: center;
+    padding: 1%;
+    border: solid;
+    border-radius: 10px 10px 10px 10px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    width: 30%;
+}
+
+.entry {
+    width: 60%;
+    height: 30%;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3, h2 {
+    text-align: center;
+}
+
+.serv_links, a:visited {
+    color: black;
+}
+
+.serv_links, a:hover {
+    color: rgb(178, 2, 2);
+}
+
+.serv_links, a:focus {
+    color: rgb(9, 77, 9);
+}
+.more{
+    text-align: right;
+}
+
+.more a {
+
+    padding: 1%;
+    border: solid;
+    border-radius: 10px 30px 5px 40px;
+    background-color: rgb(9, 77, 9);
+    color: white;
+    font-size: large;
+}
+
+.more a:hover {
+    text-align: right;
+    padding: 1%;
+    border: solid;
+    border-radius: 10px 30px 5px 40px;
+    background-color: rgb(178, 2, 2);
+    color: white;
+    font-size: large;
+}
+
+#about_us {
+    background-color: rgba(247, 180, 55, 0.877);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.main {
+    background-image: url('../images/background.JPG');
+    background-size: cover;
+    padding: 0.1%;
+}
+
+section {
+
+    margin: 1%;
+    padding: 1%;
+    overflow-wrap: break-word;
+    background-color: white;
+}
