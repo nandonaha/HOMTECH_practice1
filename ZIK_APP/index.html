@@ -22,11 +22,25 @@
   align-items: center;
 
         }
+        .headin{
+            border: solid;
+        }
+        .headin1{
+            text-decoration: underline;
+        }
+
+
     </style>
 </head>
-<body>
+<body >
+<div id="bdy_div">
 
 <h1>Zik DIRECTORY</h1>
+
+
+
+
+
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <!-- Slide 1 -->
@@ -62,7 +76,7 @@
                                 <h5 class="card-title">Beyoncé</h5>
                                 <p class="card-text">Beyoncé is an American singer, songwriter, and actress known for her
                                      powerful voice, dynamic performances, and significant impact on contemporary pop and R&B music.</p>
-                                <a href="#" class="btn btn-primary">Select Artist</a>
+                                <a href="#" class="btn btn-primary " onclick="playAudio('/ZIK_APP/muzikz/beyonce.mp3')">play</a>
                             </div>
                         </div>
                     </div>
@@ -139,7 +153,7 @@
                                 <p class="card-text">Lady Gaga is an American singer, songwriter, and
                                     actress known for her powerful vocals, provocative fashion, and eclectic musical style,
                                      which blends pop, dance, and electronic genres..</p>
-                                <a href="#" class="btn btn-primary">Select Artist</a>
+                                <a href="#" class="btn btn-primary play-audio" data-audio="/ZIK_APP/muzikz/Lady.mp3">Play</a>
                             </div>
                         </div>
                     </div>
@@ -238,6 +252,9 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
+
+</div>
 <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+<script src="/ZIK_APP/JS_FILES/test.js"></script>
 </body>
 </html>
